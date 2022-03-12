@@ -52,6 +52,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     <br>
     [https://www.w3schools.com/jsref/dom_obj_document.asp](https://www.w3schools.com/jsref/dom_obj_document.asp)
         -
+    <br>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
@@ -60,8 +61,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 [YOUR ANSWER HERE]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-- If I had more time to spend on this project I would love to add more features and game modes. One of the features that I would add is a scoreboard. With this players would be able to setup their users name and be able to compete with other players for the highest score possible. This could be possible by using mysql and a database to keep track of the users and their scores. Players would be able to register a username and keep track of their scores. This is something that I am currently learning in university in my web development class and wished I could put into practice in this project.
-- Another feature that I think would be interesting is a competitive mode. Players have a limited amount of times to guess as many patterns that they can.
+    - If I had more time to spend on this project I would love to add more features and game modes. One of the features that I would add is a scoreboard. With this players would be able to setup their users name and be able to compete with other players for the highest score possible. This could be possible by using mysql and a database to keep track of the users and their scores. Players would be able to register a username and keep track of their scores. This is something that I am currently learning in university in my web development class and wished I could put into practice in this project.
+    - Another feature that I think would be interesting is a competitive mode. Players have a limited amount of times to guess as many patterns that they can.
 
 
 
