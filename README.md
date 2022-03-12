@@ -6,7 +6,7 @@ Submitted by: **Christopher Mejia**
 
 Time spent: **4** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: [https://puzzling-sunset-amaryllis.glitch.me](https://puzzling-sunset-amaryllis.glitch.me)
 
 ## Required Functionality
 
