@@ -12,21 +12,21 @@ Link to project: (insert your link here, should start with https://glitch.com...
 
 The following **required** functionality is complete:
 
-* [ ] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [ ] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [ ] Game buttons each light up and play a sound when clicked. 
-* [ ] Computer plays back sequence of clues including sound and visual cue for each button
-* [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [ ] User wins the game after guessing a complete pattern
-* [ ] User loses the game after an incorrect guess
+* [X] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [X] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [X] Game buttons each light up and play a sound when clicked. 
+* [X] Computer plays back sequence of clues including sound and visual cue for each button
+* [X] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [X] User wins the game after guessing a complete pattern
+* [X] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
 * [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
+* [X] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [X] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+* [X] Ability to track a score. This score is reset everytime the game is won or lost.
 
 ## Video Walkthrough (GIF)
 
@@ -45,8 +45,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![](gif4-link-here)
 
 ## Reflection Questions
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+    <br>
+    [https://www.w3schools.com/cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp)
+        - I used this website to help me style my html and select the ids and classes that I needed.
+    <br>
+    [https://www.w3schools.com/jsref/dom_obj_document.asp](https://www.w3schools.com/jsref/dom_obj_document.asp)
+        -
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
@@ -55,7 +60,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 [YOUR ANSWER HERE]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+- If I had more time to spend on this project I would love to add more features and game modes. One of the features that I would add is a scoreboard. With this players would be able to setup their users name and be able to compete with other players for the highest score possible. This could be possible by using mysql and a database to keep track of the users and their scores. Players would be able to register a username and keep track of their scores. This is something that I am currently learning in university in my web development class and wished I could put into practice in this project.
+- Another feature that I think would be interesting is a competitive mode. Players have a limited amount of times to guess as many patterns that they can.
+
 
 
 
