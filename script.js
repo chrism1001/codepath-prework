@@ -1,5 +1,6 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+// Christopher Mejia
+// 03/11/2022
+// CodePath pre work
 
 // global variables
 var pattern = [];
@@ -7,13 +8,15 @@ var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
 var guessCounter = 0;
+var score = 0;
+var strike = 3;
 // global constants
 const volume = 0.5;
 const clueHoldTime = 1000;
 const cluePauseTime = 333;
 const nextClueWaitTime = 1000;
 
-// Code for generating pattern
+// Code for generating a random pattern pattern
 function createPattern() {
   for (let i = 0; i < 8; i++) {
     pattern.push(Math.floor(Math.random() * (9 - 1)) + 1);
@@ -23,15 +26,21 @@ function createPattern() {
 
 // start game function
 function startGame() {
+  // initialize variables at the start of game
   pattern = createPattern();
-  console.log(pattern);
   progress = 0;
+  strike = 3;
   gamePlaying = true;
+  
+  // this resets the score and strike on the webpage back to 0 and 3 respectively.
+  document.getElementById("score").innerHTML = "";
+  document.getElementById("strike").innerHTML = strike;
 
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
   playClueSequence();
 }
+
 // stop game function
 function stopGame() {
   gamePlaying = false;
@@ -72,6 +81,7 @@ function guess(btn) {
   console.log("user guessed: " + btn);
   console.log(guessCounter);
   console.log(progress);
+  console.log(score);
 
   if (!gamePlaying) {
     return;
@@ -95,9 +105,18 @@ function guess(btn) {
       guessCounter++;
     }
   } else {
-    loseGame();
-    pattern = [];
-    document.getElementById("score").innerHTML = "";
+    // this section give the user 3 chances to guess the correct pattern
+    // first it checks if strike is not 1 and this is true it subtracts 1 from strike updates the strike score and plays the pattern again
+    // else if the the strike equals 1 then the user has failed and lost the game. the pattern is reset to empty to create a new pattern and score is reset.
+    if (strike != 1) {
+      strike--;
+      document.getElementById("strike").innerHTML = strike;
+      playClueSequence();
+    } else {
+      loseGame();
+      pattern = [];
+      document.getElementById("score").innerHTML = "";
+    } 
   }
 }
 
