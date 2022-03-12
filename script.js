@@ -12,13 +12,13 @@ var score = 0;
 var strike = 3;
 // global constants
 const volume = 0.5;
-const clueHoldTime = 1000;
+var clueHoldTime = 1000;
 const cluePauseTime = 333;
 const nextClueWaitTime = 1000;
 
 // Code for generating pattern
 function createPattern() {
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 8; i++) {
     pattern.push(Math.floor(Math.random() * (9 - 1)) + 1);
   }
   return pattern;
@@ -63,6 +63,8 @@ function playSingleClue(btn) {
 }
 
 function playClueSequence() {
+  // speeds up the game after every round
+  clueHoldTime -= 100;
   guessCounter = 0;
   let delay = nextClueWaitTime;
   for (let i = 0; i <= progress; i++) {
