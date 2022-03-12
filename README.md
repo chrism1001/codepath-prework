@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 * [X] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
@@ -51,7 +51,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
         - I used this website to help me style my html and select the ids and classes that I needed.
     <br>
     [https://www.w3schools.com/jsref/dom_obj_document.asp](https://www.w3schools.com/jsref/dom_obj_document.asp)
-        -
+        - This website helped me use the getElementById selector to update the html from javascript.
     <br>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
