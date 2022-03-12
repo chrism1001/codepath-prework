@@ -10,9 +10,9 @@ var tonePlaying = false;
 var guessCounter = 0;
 var score = 0;
 var strike = 3;
+var clueHoldTime = 1000;
 // global constants
 const volume = 0.5;
-var clueHoldTime = 1000;
 const cluePauseTime = 333;
 const nextClueWaitTime = 1000;
 
