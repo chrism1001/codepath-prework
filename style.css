@@ -2,104 +2,173 @@
 
 /* default to border-box */
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  /* adjust typography defaults */
-  body {
-    margin: 1rem;
-    font-family: sans-serif;
-    line-height: 1.5;
-    background-color: slategrey;
-    color: white;
-  }
-  
-  h1 {
-    font-family: verdana, arial, sans-serif;
-    background-color: #24252A; 
-  }
-  
-  button {
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  div > button {
-    width:200px;
-    height:200px;
-    margin:2px;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  #button1 {
-    background: lightgreen;
-  }
-  #button1:active, #button1.lit {
-    background: green;
-  }
-  #button2 {
-    background: lightblue;
-  }
-  #button2:active, #button2.lit {
-    background: blue;
-  }
-  #button3 {
-    background: pink;
-  }
-  #button3:active, #button3.lit {
-    background: #AA336A;
-  }
-  #button4 {
-    background: lightyellow;
-  }
-  #button4:active, #button4.lit {
-    background: yellow;
-  }
-  #button5 {
-    background: lightgrey;
-  }
-  #button5:active, #button5.lit {
-    background: white;
-  }
-  #button6 {
-    background: #ff6347;
-  }
-  #button6:active, #button6.lit {
-    background: red;
-  }
-  #button7 {
-    background: #FFD580;
-  }
-  #button7:active, #button7.lit {
-    background: orange;
-  }
-  #button8 {
-    background: blue;
-  }
-  #button8:active, #button8.lit {
-    background: lightblue;
-  }
-  #button9 {
-    background: #CF9FFF;
-  }
-  #button9:active, #button9.lit {
-    background: purple;
-  }
-  
-  
-  
-  
-  /* images and videos max out at full width */
-  img,
-  video {
-    height: auto;
-    max-width: 100%;
-  }
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+* {
+  font-family: monaco, Consolas, Lucida Console, monospace; 
+}
+
+body {
+  margin: 1rem;
+  line-height: 1.5;
+  background-color: black;
+  color: white;
+}
+
+p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  background-color: #24252A;
+  text-align: center;
+  font-size: 36px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#startButtonArea {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+#startBtn, #stopBtn {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 80px;
+}
+
+#gameButtonArea {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div > button {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+
+#scoreArea {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  display: inline;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  border: 2px solid white;
+  background: black;
+}
+#button1:active, #button1.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button2 {
+  border: 2px solid white;
+  background: black;
+}
+#button2:active, #button2.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button3 {
+  border: 2px solid white;
+  background: black;
+}
+#button3:active, #button3.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button4 {
+  border: 2px solid white;
+  background: black;
+}
+#button4:active, #button4.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button5 {
+  border: 2px solid white;
+  background: black;
+}
+#button5:active, #button5.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button6 {
+  border: 2px solid white;
+  background: black;
+}
+#button6:active, #button6.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button7 {
+  border: 2px solid white;
+  background: black;
+}
+#button7:active, #button7.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button8 {
+  border: 2px solid white;
+  background: black;
+}
+#button8:active, #button8.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+#button9 {
+  border: 2px solid white;
+  background: black;
+}
+#button9:active, #button9.lit {
+  margin: 2px solid black;
+  border: 2px solid black;
+  background: white;
+}
+
+
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

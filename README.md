@@ -4,7 +4,7 @@
 
 Submitted by: **Christopher Mejia**
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 Link to project: [https://puzzling-sunset-amaryllis.glitch.me](https://puzzling-sunset-amaryllis.glitch.me)
 

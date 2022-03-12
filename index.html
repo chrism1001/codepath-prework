@@ -18,18 +18,8 @@
     <h1>
       Light and Memory Sound Game
     </h1>
-    <p>
-      Welcome to the game! Repeat back the pattern by pressing buttons and compete for the highest score. <br>
-      You have 3 chances to win!
-    </p>
-    <button id="startBtn" onclick="startGame()">
-      Start
-    </button>
-    <button id="stopBtn" class="hidden" onclick="stopGame()">
-      Stop
-    </button>
     
-    <div id="score area">
+    <div id="scoreArea">
       <h2>Score = <span id="score"></span>0</h2>
       <h2>Strike = <span id="strike">3</span></h2>
     </div>
@@ -45,5 +35,19 @@
       <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"></button>
       <button id="button9" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()"></button>
     </div>
+    
+    <div id="startButtonArea">
+      <button id="startBtn" onclick="startGame()">
+        Start
+      </button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop
+      </button>
+    </div>
+    
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons and compete for the highest score. <br>
+      You have 3 chances to win!
+    </p>
   </body>
 </html>

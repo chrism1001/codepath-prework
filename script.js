@@ -40,6 +40,7 @@ function startGame() {
 // stop game function
 function stopGame() {
   gamePlaying = false;
+  pattern = [];
 
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
