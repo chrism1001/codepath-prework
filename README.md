@@ -46,27 +46,28 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-    <br>
+    
     [https://www.w3schools.com/cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp)
         - I used this website to help me style my html and select the ids and classes that I needed.
-    <br>
+    
     [https://www.w3schools.com/jsref/dom_obj_document.asp](https://www.w3schools.com/jsref/dom_obj_document.asp)
         - This website helped me use the getElementById selector to update the html from javascript.
-    <br>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-
-  The biggest challenges that I faced in this project was updating the score and strike numbers on the website. I had limiting experience with updating values in html through javascript. Luckily with the valuable resources that my professor from my webdevelopment class provided and my previous projects I was able to update the scores and be able to reset them when they needed to be reset.
-  
-  The second challenge I faced is styling my website. I didnt want to have the same styling as the tutorial, but I am not great at styling. For this I watched a youtube video on styling guides.
+    
+    The biggest challenges that I faced in this project was updating the score and strike numbers on the website. I had limiting experience with updating values in html through javascript. Luckily with the valuable resources that my professor from my webdevelopment class provided and my previous projects I was able to update the scores and be able to reset them when they needed to be reset.
+    
+    The second challenge I faced is styling my website. I didnt want to have the same styling as the tutorial, but I am not great at styling. For this I watched a youtube video on styling guides.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-  
-  As someone who is just starting my web development journey I have many questions. One question aspect of web development that I still need work on is developing a friendly user experience and a project that is pleasing to the eyes. I would love to learn about design process and how developers know how to make user friendly websites and good looking websites. Styling and formating is an aspect that I want to keep working on and improving. 
+    
+    As someone who is just starting my web development journey I have many questions. One question aspect of web development that I still need work on is developing a friendly user experience and a project that is pleasing to the eyes. I would love to learn about design process and how developers know how to make user friendly websites and good looking websites. Styling and formating is an aspect that I want to keep working on and improving. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-    - If I had more time to spend on this project I would love to add more features and game modes. One of the features that I would add is a scoreboard. With this players would be able to setup their users name and be able to compete with other players for the highest score possible. This could be possible by using mysql and a database to keep track of the users and their scores. Players would be able to register a username and keep track of their scores. This is something that I am currently learning in university in my web development class and wished I could put into practice in this project.
-    - Another feature that I think would be interesting is a competitive mode. Players have a limited amount of times to guess as many patterns that they can.
+    
+    If I had more time to spend on this project I would love to add more features and game modes. One of the features that I would add is a scoreboard. With this players would be able to setup their users name and be able to compete with other players for the highest score possible. This could be possible by using mysql and a database to keep track of the users and their scores. Players would be able to register a username and keep track of their scores. This is something that I am currently learning in university in my web development class and wished I could put into practice in this project.
+    
+    Another feature that I think would be interesting is a competitive mode. Players have a limited amount of times to guess as many patterns that they can.
 
 
 
