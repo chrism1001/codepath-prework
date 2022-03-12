@@ -18,7 +18,7 @@ const nextClueWaitTime = 1000;
 
 // Code for generating pattern
 function createPattern() {
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 6; i++) {
     pattern.push(Math.floor(Math.random() * (9 - 1)) + 1);
   }
   return pattern;
@@ -84,14 +84,13 @@ function guess(btn) {
   }
 
   // this code check increments the score.
-  // if the player won a message is displayed and the score and pattern array is reset
-  // is the player loses a message is displayed and the score and pattern array is reset
+  // if the player won a message is displayed and pattern array is reset
+  // if the player loses a message is displayed and pattern array is reset
   if (btn == pattern[guessCounter]) {
     if (guessCounter == progress) {
       if (progress == pattern.length - 1) {
         winGame();
         pattern = [];
-        document.getElementById("score").innerHTML = "";
       } else {
         progress++;
         document.getElementById("score").innerHTML = progress;
@@ -108,7 +107,6 @@ function guess(btn) {
     } else {
       loseGame();
       pattern = [];
-      document.getElementById("score").innerHTML = "";
     } 
   }
 }

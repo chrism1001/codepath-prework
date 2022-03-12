@@ -69,6 +69,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     
     Another feature that I think would be interesting is a competitive mode. Players have a limited amount of times to guess as many patterns that they can.
 
+    One last feature or fix that I would like to add is the ability to block players from pressing a button when a pattern is being played. Otherwise it might break the game and confused the pllayer in the process.
+
 
 
 
