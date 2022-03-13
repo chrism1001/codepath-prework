@@ -62,6 +62,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     [https://www.w3schools.com/jsref/dom_obj_document.asp](https://www.w3schools.com/jsref/dom_obj_document.asp)
         - This website helped me use the getElementById selector to update the html from javascript.
 
+    [https://www.youtube.com/watch?v=Qhaz36TZG5Y&t=117s&ab_channel=Fireship](https://www.youtube.com/watch?v=Qhaz36TZG5Y&t=117s&ab_channel=Fireship)
+        - This video helped me understand a little about the box model and how to layout my items on a page.
+
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
     
     The biggest challenges that I faced in this project was updating the score and strike numbers on the website. I had limiting experience with updating values in html through javascript. Luckily with the valuable resources that my professor from my webdevelopment class provided and my previous projects I was able to update the scores and be able to reset them when they needed to be reset.
