@@ -39,9 +39,18 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
+![](https://media.giphy.com/media/QP4lYl5bjLeHlG4mlo/giphy.gif)
+
+    - This gif shows the beginning of the game. At the beginning score and strikes are reset to 0 and 3 respectively.
+
+![](https://media.giphy.com/media/CwGCtjHf6nInFklJ5A/giphy.gif)
+
+    - This gif shows the winning message.
+
+![](https://media.giphy.com/media/oBGWVkgiTlQgTaK7cl/giphy.gif)
+
+    - This gif shows what happens when a player reaches 0 strikes and loses the game. A lost message is shown.
+
 ![](gif4-link-here)
 
 ## Reflection Questions
