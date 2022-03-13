@@ -43,11 +43,11 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
     - This gif shows the beginning of the game. At the beginning score and strikes are reset to 0 and 3 respectively.
 
-![](https://media.giphy.com/media/CwGCtjHf6nInFklJ5A/giphy.gif)
+![](https://media.giphy.com/media/qK7rR2PY9eJRs6MLhs/giphy.gif)
 
     - This gif shows the winning message.
 
-![](https://media.giphy.com/media/oBGWVkgiTlQgTaK7cl/giphy.gif)
+![](https://media.giphy.com/media/UPq7nPQlPtORziWHq7/giphy.gif)
 
     - This gif shows what happens when a player reaches 0 strikes and loses the game. A lost message is shown.
 
