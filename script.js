@@ -29,6 +29,7 @@ function startGame() {
   pattern = createPattern();
   progress = 0;
   strike = 3;
+  clueHoldTime = 1000;
   gamePlaying = true;
   
   document.getElementById("score").innerHTML = "";
@@ -64,7 +65,11 @@ function playSingleClue(btn) {
 
 function playClueSequence() {
   // speeds up the game after every round
-  clueHoldTime -= 100;
+  if (clueHoldTime < 500) {
+    clueHoldTime = clueHoldTime;
+  } else {
+    clueHoldTime -= 100;
+  }
   guessCounter = 0;
   let delay = nextClueWaitTime;
   for (let i = 0; i <= progress; i++) {
